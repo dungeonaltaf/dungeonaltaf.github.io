@@ -68,7 +68,7 @@
   color: white;
 }
 
-.nav-item {
+.nav-link {
   /*  display: flex;
       align-items: center;
       justify-content: center;
@@ -79,6 +79,8 @@
   width: 25px;
   height: 25px;
   */
+  width : auto;
+  height : auto;
   background: white;
   /*
   border-radius: 7.5px;
@@ -90,11 +92,11 @@
   transition: 1s box-shadow;
 }
 
-.nav-item:hover {
+.nav-link:hover {
   box-shadow: 0 .5px 3.5px 0px rgba(0,0,0,.1);
 }
 
-.nav-item:hover:before, div:hover:after {
+.nav-link:hover:before, div:hover:after {
   display: block;
   content: '';
   position: absolute;
@@ -102,13 +104,15 @@
   width: 25px;
   height: 25px;
   */
+  width : auto;
+  height : auto;
   background: #FDA8CF;
   border-radius: 7.5px;
   z-index: -1;
   animation: 1s clockwise infinite;
 }
 
-.nav-item:hover:after {
+.nav-link:hover:after {
   background: #F3CE5E;
   animation: 2s counterclockwise infinite;
 }
