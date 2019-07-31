@@ -79,8 +79,8 @@
   width: 25px;
   height: 25px;
   */
-  width : auto;
-  height : auto;
+  width : 15px;
+  height : 10px;
   background: white;
   /*
   border-radius: 7.5px;
@@ -104,8 +104,8 @@
   width: 25px;
   height: 25px;
   */
-  width : auto;
-  height : auto;
+  width : 15px;
+  height : 10px;
   background: #FDA8CF;
   border-radius: 7.5px;
   z-index: -1;
