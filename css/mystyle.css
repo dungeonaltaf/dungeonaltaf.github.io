@@ -1,1 +1,15 @@
 
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.pics_in_a_row {
+  display: flex;
+}
+#11{ flex: 1.77; }
+#12{ flex:2.21 ;  }
+#13{ flex: 1.77;  }
+#14{ flex:1; }
+
+
